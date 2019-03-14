@@ -244,3 +244,19 @@ a:active {
 	text-decoration: none !important;
 	color: #000 !important;
 }
+
+.social-media-wrapper{
+     width: 100%;
+    text-align: center;
+    margin: -40% 0px 0px -28px;
+    padding: 1%;
+
+  }
+
+  .social-media{
+
+     width: 100%;
+    color: #000;
+    display: inline;
+    margin: 0 2% 0 0;
+  }
