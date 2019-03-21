@@ -288,6 +288,13 @@ list-style-type: none;
 margin-right: 2em;
 
 }
+
+html, body {
+
+overflow:scroll;
+-webkit-overflow-scrolling:touch;
+
+}
   
 }
 
@@ -315,5 +322,11 @@ margin-right: 3em;
 
 }
 
+html, body {
+
+overflow:scroll;
+-webkit-overflow-scrolling:touch;
+
+}
 
   }
