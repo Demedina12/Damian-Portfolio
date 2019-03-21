@@ -197,6 +197,7 @@ text-decoration: none;
 color: #fff;
 display: flex;
 justify-content: center;
+margin-right: 3em;
 }
 
 .sitescontainer li {
@@ -209,6 +210,7 @@ justify-content: center;
 display: flex;
 justify-content: center;
 list-style-type: none;
+margin-right: 3em;
 
 }
 
@@ -232,6 +234,7 @@ text-decoration: none;
 li {
 
   list-style: none;
+  margin:1em;
 }
 
 
