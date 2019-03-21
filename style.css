@@ -5,18 +5,16 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #000;
 }
 
-.Damian {
+span {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   margin: 0;
-  margin-top: -22em;
- 
 }
 
 .glitch {
@@ -26,7 +24,7 @@ body {
   align-content: center;
   height: 100%;
   width: 100%;
-  
+  overflow: hidden;
 }
 
 .glitch .text {
@@ -36,7 +34,7 @@ body {
   margin: 0;
 }
 
-.glitch h2 {
+.glitch span {
   position: absolute;
   color: white;
   font-family: "Ubuntu Mono", monospace;
@@ -50,34 +48,34 @@ body {
   width: 100vw;
 }
 
-.glitch h2:nth-child(1) {
+.glitch span:nth-child(1) {
   color: red;
   margin-left: 8px;
   margin-top: -2px;
   -webkit-filter: blur(2px);
 }
 
-.glitch h2:nth-child(2) {
-  color: yellow;
+.glitch span:nth-child(2) {
+  color: green;
   margin-left: 7px;
   -webkit-filter: blur(2px);
 }
 
-.glitch h2:nth-child(3) {
+.glitch span:nth-child(3) {
   color: blue;
   margin-left: -7px;
-  margin-top: 17px;
+  margin-top: 4px;
   -webkit-filter: blur(2px);
   -webkit-animation: jerkblue .5s infinite;
 }
 
-.glitch h2:nth-child(4) {
+.glitch span:nth-child(4) {
   color: white;
   -webkit-filter: blur(1px);
   text-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
 }
 
-.glitch h2:nth-child(5) {
+.glitch span:nth-child(5) {
   color: rgba(255, 255, 255, 0.4);
   -webkit-filter: blur(15px);
 }
@@ -183,80 +181,88 @@ body {
   }
 }
 
-.portfolio{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  margin-top: -15em;
+.container{
+
+height:200px;
+
+
 
 }
 
-.glitchportfolio{
 
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 100%;
-  width: 100%;
+.sitescontainer{
 
-}
-
-.textportfolio{
-  
-  -webkit-animation: jerkwhole 2.5s infinite;
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-a{
 text-decoration: none;
-color: #000;	
+color: #fff;
+display: flex;
+justify-content: center;
 }
+
+.sitescontainer li {
+
+  text-align: center;
+}
+
+.socialcontainer{
+
+display: flex;
+justify-content: center;
+list-style-type: none;
+
+}
+
+.socialmedia li{
+
+  display: inline-flex;
+
+ 
+}
+
+
+
+
+a {
+
+text-decoration: none;
+
+
+}
+
+li {
+
+  list-style: none;
+}
+
+
 
 /* unvisited link */
 a:link {
-    text-decoration:none;
+  color: #fff;
 }
 
 /* visited link */
 a:visited {
-    text-decoration:none;
+  color: #fff;
 }
 
 /* mouse over link */
 a:hover {
-    text-decoration:none;
+  color: #fff;
 }
 
 /* selected link */
 a:active {
-    text-decoration:none;
+  color: #fff;
 }
 
-.sites{
 
-	text-decoration: none !important;
-	color: #000 !important;
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+  
 }
-
-.social-media-wrapper{
-     width: 100%;
-    text-align: center;
-    margin: -40% 0px 0px -28px;
-    padding: 1%;
-
-  }
-
-  .social-media{
-
-     width: 100%;
-    color: #000;
-    display: inline;
-    margin: 0 2% 0 0;
-  }
