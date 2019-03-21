@@ -264,5 +264,53 @@ a:active {
 
 @media only screen and (max-width: 500px){
 
+
+.sitescontainer{
+
+text-decoration: none;
+color: #fff;
+display: flex;
+justify-content: center;
+margin-right: 2em;
+
+
+
+}
+
+.socialcontainer{
+
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin-right: 2em;
+
+}
   
 }
+
+@media only screen and (max-width: 768px){
+
+  .sitescontainer{
+
+text-decoration: none;
+color: #fff;
+display: flex;
+justify-content: center;
+margin-right: 3em;
+
+
+
+}
+
+
+.socialcontainer{
+
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin-right: 3em;
+
+}
+
+
+  }
